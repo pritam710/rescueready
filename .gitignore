@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.local
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+.vite/
+data/*.json
+!data/.gitkeep
+
+# Superseded local QA captures; the polished 3:2 gallery images are committed.
+/assets/dashboard.png
+/assets/guided-drill.png
+/assets/practice.png
+/assets/supplies.png
